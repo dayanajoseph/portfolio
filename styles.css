@@ -53,7 +53,7 @@ section {
 /* home */
 .home {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/hero-image.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hero-image.jpg');
   filter: grayscale(100%);
   background-size: cover;
   background-position: center;
@@ -178,7 +178,7 @@ section {
 }
 
 .portfolio .box-container .box {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/portfolio-1.jpeg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('portfolio-1.jpeg');
   filter: grayscale(70%);
   padding: 1rem;
   box-shadow: var(--box-shadow);
