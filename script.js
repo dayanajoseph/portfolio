@@ -22,3 +22,14 @@ document.onload = () => {
     document.querySelector('.header').classList.remove('active');
   }
 };
+
+function sendMail() {
+  var link = "mailto:dayanajosephofficial@gmail.com"
+           + "?cc=officialshere@gmail.com"
+           + "&subject=" + encodeURIComponent(document.getElementById('name').value
+           + "&body=" + encodeURIComponent(document.getElementById('msg').value)
+           
+  ;
+  
+  window.location.href = link;
+}
